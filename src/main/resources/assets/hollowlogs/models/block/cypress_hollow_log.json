@@ -1,0 +1,8 @@
+{
+	"parent": "hollowlogs:block/hollow_column",
+	"textures": {
+		"end": "terrestria:block/stripped_cypress_log_top",
+		"side": "terrestria:block/cypress_log",
+		"inner": "terrestria:block/stripped_cypress_log"
+	}
+}

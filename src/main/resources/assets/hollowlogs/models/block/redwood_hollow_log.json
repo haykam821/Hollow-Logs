@@ -1,0 +1,8 @@
+{
+	"parent": "hollowlogs:block/hollow_column",
+	"textures": {
+		"end": "terrestria:block/stripped_redwood_log_top",
+		"side": "terrestria:block/redwood_log",
+		"inner": "terrestria:block/stripped_redwood_log"
+	}
+}

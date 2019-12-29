@@ -4,5 +4,12 @@
 	"block.hollowlogs.birch_hollow_log": "Birch Hollow Log",
 	"block.hollowlogs.jungle_hollow_log": "Jungle Hollow Log",
 	"block.hollowlogs.acacia_hollow_log": "Acacia Hollow Log",
-	"block.hollowlogs.dark_oak_hollow_log": "Dark Oak Hollow Log"
+	"block.hollowlogs.dark_oak_hollow_log": "Dark Oak Hollow Log",
+	"block.hollowlogs.redwood_hollow_log": "Redwood Hollow Log",
+	"block.hollowlogs.hemlock_hollow_log": "Hemlock Hollow Log",
+	"block.hollowlogs.rubber_hollow_log": "Rubber Hollow Log",
+	"block.hollowlogs.cypress_hollow_log": "Cypress Hollow Log",
+	"block.hollowlogs.willow_hollow_log": "Willow Hollow Log",
+	"block.hollowlogs.japanese_maple_hollow_log": "Japanese Maple Hollow Log",
+	"block.hollowlogs.rainbow_eucalyptus_hollow_log": "Rainbow Eucalyptus Hollow Log"
 }

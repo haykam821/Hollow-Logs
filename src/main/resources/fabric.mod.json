@@ -2,7 +2,7 @@
 	"schemaVersion": 1,
 	"id": "hollowlogs",
 	"version": "${version}",
-	"name": "Board Games",
+	"name": "Hollow Logs",
 	"description": "A Fabric mod that allows logs to be hollowed.",
 	"authors": [
 		"haykam821"
