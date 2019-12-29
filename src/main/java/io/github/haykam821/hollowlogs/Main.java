@@ -29,6 +29,8 @@ public class Main implements ModInitializer {
 	public static final Block JAPANESE_MAPLE_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.BROWN, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
 	public static final Block RAINBOW_EUCALYPTUS_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.BLUE, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
 
+	public static final Block FIR_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.BROWN, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
+
 	static <T extends Block> T registerHollowLog(String name, T block) {
 		T registered = Registry.register(Registry.BLOCK, new Identifier("hollowlogs", name), block);
 		Registry.register(Registry.ITEM, new Identifier("hollowlogs", name), new BlockItem(block, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS)));
@@ -46,6 +48,8 @@ public class Main implements ModInitializer {
 		registerHollowLog("dark_oak_hollow_log", DARK_OAK_HOLLOW_LOG);
 
 		FabricLoader loader = FabricLoader.getInstance();
+
+		// Terrestria integration
 		if (loader.isModLoaded("terrestria")) {
 			registerHollowLog("redwood_hollow_log", REDWOOD_HOLLOW_LOG);
 			registerHollowLog("hemlock_hollow_log", HEMLOCK_HOLLOW_LOG);
@@ -54,6 +58,11 @@ public class Main implements ModInitializer {
 			registerHollowLog("willow_hollow_log", WILLOW_HOLLOW_LOG);
 			registerHollowLog("japanese_maple_hollow_log", JAPANESE_MAPLE_HOLLOW_LOG);
 			registerHollowLog("rainbow_eucalyptus_hollow_log", RAINBOW_EUCALYPTUS_HOLLOW_LOG);
+		}
+		
+		// Traverse integration
+		if (loader.isModLoaded("traverse")) {
+			registerHollowLog("fir_hollow_log", FIR_HOLLOW_LOG);
 		}
 	}
 }

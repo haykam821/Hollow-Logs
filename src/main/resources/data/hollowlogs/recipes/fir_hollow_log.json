@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "traverse:fir_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:fir_hollow_log",
+		"count": 6
+	}
+}

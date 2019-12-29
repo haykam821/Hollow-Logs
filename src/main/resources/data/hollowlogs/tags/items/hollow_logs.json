@@ -12,6 +12,7 @@
 		"hollowlogs:cypress_hollow_log",
 		"hollowlogs:willow_hollow_log",
 		"hollowlogs:japanese_maple_hollow_log",
-		"hollowlogs:rainbow_eucalyptus_hollow_log"
+		"hollowlogs:rainbow_eucalyptus_hollow_log",
+		"hollowlogs:fir_hollow_log"
 	]
 }
