@@ -1,0 +1,25 @@
+{
+	"schemaVersion": 1,
+	"id": "hollowlogs",
+	"version": "${version}",
+	"name": "Board Games",
+	"description": "A Fabric mod that allows logs to be hollowed.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Hollow-Logs#readme",
+		"issues": "https://github.com/haykam821/Hollow-Logs/issues"
+	},
+	"license": "MIT",
+	"icon": "assets/hollowlogs/icon.png",
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.hollowlogs.Main"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric": "*"
+	}
+}
