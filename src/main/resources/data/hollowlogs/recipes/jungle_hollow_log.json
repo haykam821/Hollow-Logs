@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "minecraft:jungle_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:jungle_hollow_log",
+		"count": 6
+	}
+}

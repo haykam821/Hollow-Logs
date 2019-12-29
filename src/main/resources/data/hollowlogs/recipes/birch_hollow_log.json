@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "minecraft:birch_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:birch_hollow_log",
+		"count": 6
+	}
+}

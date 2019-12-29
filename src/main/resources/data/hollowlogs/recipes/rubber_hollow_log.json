@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "terrestria:rubber_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:rubber_hollow_log",
+		"count": 6
+	}
+}

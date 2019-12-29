@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "terrestria:japanese_maple_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:japanese_maple_hollow_log",
+		"count": 6
+	}
+}
