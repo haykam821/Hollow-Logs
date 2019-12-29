@@ -1,0 +1,8 @@
+{
+	"parent": "hollowlogs:block/hollow_column",
+	"textures": {
+		"end": "thehallow:block/stripped_deadwood_log_top",
+		"side": "thehallow:block/deadwood_log",
+		"inner": "thehallow:block/stripped_deadwood_log"
+	}
+}
