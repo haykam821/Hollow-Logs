@@ -21,6 +21,9 @@ public class Main implements ModInitializer {
 	public static final Block ACACIA_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.ORANGE, FabricBlockSettings.copy(Blocks.ACACIA_LOG).build());
 	public static final Block DARK_OAK_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.BROWN, FabricBlockSettings.copy(Blocks.DARK_OAK_LOG).build());
 
+	public static final Block WARPED_HOLLOW_STEM = new HollowPillarBlock(MaterialColor.LIGHT_BLUE, FabricBlockSettings.copy(Blocks.WARPED_STEM).build());
+	public static final Block CRIMSON_HOLLOW_STEM = new HollowPillarBlock(MaterialColor.ORANGE, FabricBlockSettings.copy(Blocks.CRIMSON_STEM).build());
+
 	public static final Block REDWOOD_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.RED_TERRACOTTA, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
 	public static final Block HEMLOCK_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.BROWN, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
 	public static final Block RUBBER_HOLLOW_LOG = new HollowPillarBlock(MaterialColor.WHITE_TERRACOTTA, FabricBlockSettings.copy(Blocks.OAK_LOG).build());
@@ -48,6 +51,9 @@ public class Main implements ModInitializer {
 		registerHollowLog("jungle_hollow_log", JUNGLE_HOLLOW_LOG);
 		registerHollowLog("acacia_hollow_log", ACACIA_HOLLOW_LOG);
 		registerHollowLog("dark_oak_hollow_log", DARK_OAK_HOLLOW_LOG);
+
+		registerHollowLog("warped_hollow_stem", WARPED_HOLLOW_STEM);
+		registerHollowLog("crimson_hollow_stem", CRIMSON_HOLLOW_STEM);
 
 		FabricLoader loader = FabricLoader.getInstance();
 

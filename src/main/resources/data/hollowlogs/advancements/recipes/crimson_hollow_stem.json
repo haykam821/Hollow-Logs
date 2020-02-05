@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"hollowlogs:crimson_hollow_stem"
+		]
+	},
+	"criteria": {
+		"has_at_least_6_crimson_stems": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "minecraft:crimson_stem",
+						"count": {
+							"min": 6
+						}
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "hollowlogs:crimson_hollow_stem"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_at_least_6_crimson_stems",
+			"has_the_recipe"
+		]
+	]
+}

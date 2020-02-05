@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "minecraft:warped_stem"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:warped_hollow_stem",
+		"count": 6
+	}
+}
