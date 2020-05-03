@@ -4,10 +4,9 @@ import static net.minecraft.state.property.Properties.WATERLOGGED;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
-import net.minecraft.block.LogBlock;
-import net.minecraft.block.MaterialColor;
+import net.minecraft.block.PillarBlock;
+import net.minecraft.block.ShapeContext;
 import net.minecraft.block.Waterloggable;
-import net.minecraft.entity.EntityContext;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
@@ -20,7 +19,7 @@ import net.minecraft.util.shape.VoxelShapes;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.IWorld;
 
-public class HollowPillarBlock extends LogBlock implements Waterloggable {
+public class HollowPillarBlock extends PillarBlock implements Waterloggable {
 	public static final VoxelShape X_SHAPE = VoxelShapes.union(
 		VoxelShapes.cuboid(0f, 0f, 0f, 1f, 1f, 0.0625f),
 		VoxelShapes.cuboid(0f, 0f, 0.9375f, 1f, 1f, 1f),
@@ -40,8 +39,8 @@ public class HollowPillarBlock extends LogBlock implements Waterloggable {
 		VoxelShapes.cuboid(0.9375f, 0.0625f, 0f, 1f, 0.9375f, 1f)
 	);
 
-	public HollowPillarBlock(final MaterialColor endMaterialColor, Settings settings) {
-		super(endMaterialColor, settings);
+	public HollowPillarBlock(Block base) {
+		super(Settings.copy(base));
 		this.setDefaultState(super.getDefaultState().with(WATERLOGGED, false));
 	}
 
@@ -69,7 +68,7 @@ public class HollowPillarBlock extends LogBlock implements Waterloggable {
 	}
 
 	@Override
-	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, EntityContext ctx) {
+	public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
 		switch (state.get((EnumProperty<Direction.Axis>) HollowPillarBlock.AXIS)) {
 			case X: {
 				return HollowPillarBlock.X_SHAPE;
