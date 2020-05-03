@@ -31,7 +31,9 @@ public enum LogTypes {
 
 	DEADWOOD("thehallow", "deadwood", Blocks.OAK_LOG),
 
-	FIR("traverse", "fir", Blocks.OAK_LOG);
+	FIR("traverse", "fir", Blocks.OAK_LOG),
+
+	WHITE_OAK("blockus", "white_oak", Blocks.BIRCH_LOG);
 
 	private LogTypes(String mod, String type, Block base, boolean isStem) {
 		if (!FabricLoader.getInstance().isModLoaded(mod)) return;

@@ -1,5 +1,6 @@
 plugins {
 	id "fabric-loom" version "0.2.7-SNAPSHOT"
+	id "com.wynprice.cursemaven" version "2.1.1"
 	id "maven-publish"
 }
 
@@ -30,6 +31,10 @@ dependencies {
 	// Fabric API
 	modCompile("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 	include("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
+
+	if (System.env.MOD_INTEGRATION) {
+		modCompile("curse.maven:blockus:2938648")
+	}
 }
 
 processResources {
