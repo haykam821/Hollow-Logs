@@ -1,27 +1,24 @@
-package io.github.haykam821.hollowlogs;
+package io.github.haykam821.hollowlogs.block;
 
+import static net.minecraft.state.property.Properties.WATERLOGGED;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockState;
 import net.minecraft.block.LogBlock;
 import net.minecraft.block.MaterialColor;
-
-import net.minecraft.util.shape.VoxelShape;
-import net.minecraft.util.shape.VoxelShapes;
-
-import net.minecraft.block.BlockState;
-import net.minecraft.world.BlockView;
-import net.minecraft.util.math.BlockPos;
-import net.minecraft.entity.EntityContext;
-
-import net.minecraft.state.property.EnumProperty;
-import net.minecraft.util.math.Direction;
-
 import net.minecraft.block.Waterloggable;
-import static net.minecraft.state.property.Properties.WATERLOGGED;
-import net.minecraft.state.StateManager;
-import net.minecraft.world.IWorld;
+import net.minecraft.entity.EntityContext;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.fluid.Fluids;
 import net.minecraft.item.ItemPlacementContext;
-import net.minecraft.block.Block;
+import net.minecraft.state.StateManager;
+import net.minecraft.state.property.EnumProperty;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.math.Direction;
+import net.minecraft.util.shape.VoxelShape;
+import net.minecraft.util.shape.VoxelShapes;
+import net.minecraft.world.BlockView;
+import net.minecraft.world.IWorld;
 
 public class HollowPillarBlock extends LogBlock implements Waterloggable {
 	public static final VoxelShape X_SHAPE = VoxelShapes.union(
