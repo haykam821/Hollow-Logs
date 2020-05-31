@@ -33,7 +33,7 @@ dependencies {
 	include("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
 
 	if (System.env.MOD_INTEGRATION) {
-		modCompile("curse.maven:blockus:2938648")
+		modCompile("curse.maven:blockus:2962270")
 	}
 }
 
