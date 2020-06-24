@@ -1,36 +1,36 @@
 {
 	"values": [
+		"hollowlogs:acacia_hollow_log",
+		"hollowlogs:birch_hollow_log",
+		"hollowlogs:crimson_hollow_stem",
+		"hollowlogs:dark_oak_hollow_log",
+		"hollowlogs:jungle_hollow_log",
 		"hollowlogs:oak_hollow_log",
 		"hollowlogs:spruce_hollow_log",
-		"hollowlogs:birch_hollow_log",
-		"hollowlogs:jungle_hollow_log",
-		"hollowlogs:acacia_hollow_log",
-		"hollowlogs:dark_oak_hollow_log",
-		"hollowlogs:warped_hollow_stem",
-		"hollowlogs:crimson_hollow_stem"
+		"hollowlogs:warped_hollow_stem"
 	],
 	"libcd": {
 		"entries": [
 			{
 				"when": {
-					"libcd:mod_loaded": "terrestria"
+					"libcd:mod_loaded": "blockus"
 				},
 				"values": [
-					"hollowlogs:redwood_hollow_log",
-					"hollowlogs:hemlock_hollow_log",
-					"hollowlogs:rubber_hollow_log",
-					"hollowlogs:cypress_hollow_log",
-					"hollowlogs:willow_hollow_log",
-					"hollowlogs:japanese_maple_hollow_log",
-					"hollowlogs:rainbow_eucalyptus_hollow_log"
+					"hollowlogs:white_oak_hollow_log"
 				]
 			},
 			{
 				"when": {
-					"libcd:mod_loaded": "traverse"
+					"libcd:mod_loaded": "terrestria"
 				},
 				"values": [
-					"hollowlogs:fir_hollow_log"
+					"hollowlogs:cypress_hollow_log",
+					"hollowlogs:hemlock_hollow_log",
+					"hollowlogs:japanese_maple_hollow_log",
+					"hollowlogs:rainbow_eucalyptus_hollow_log",
+					"hollowlogs:redwood_hollow_log",
+					"hollowlogs:rubber_hollow_log",
+					"hollowlogs:willow_hollow_log"
 				]
 			},
 			{
@@ -43,10 +43,10 @@
 			},
 			{
 				"when": {
-					"libcd:mod_loaded": "blockus"
+					"libcd:mod_loaded": "traverse"
 				},
 				"values": [
-					"hollowlogs:white_oak_hollow_log"
+					"hollowlogs:fir_hollow_log"
 				]
 			}
 		]
