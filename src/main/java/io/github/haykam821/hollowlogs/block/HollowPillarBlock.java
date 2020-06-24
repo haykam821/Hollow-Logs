@@ -39,8 +39,8 @@ public class HollowPillarBlock extends PillarBlock implements Waterloggable {
 		VoxelShapes.cuboid(0.9375f, 0.0625f, 0f, 1f, 0.9375f, 1f)
 	);
 
-	public HollowPillarBlock(Block base) {
-		super(Settings.copy(base));
+	public HollowPillarBlock(Settings settings) {
+		super(settings);
 		this.setDefaultState(super.getDefaultState().with(WATERLOGGED, false));
 	}
 

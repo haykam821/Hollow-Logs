@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "cinderscapes:umbral_stem"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:umbral_hollow_stem",
+		"count": 6
+	}
+}

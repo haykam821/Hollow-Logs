@@ -23,6 +23,10 @@ repositories {
 		name = "Cotton"
 		url = "https://server.bbkr.space/artifactory/libs-release/"
 	}
+	maven {
+		name = "Modmuss"
+		url = "http://maven.modmuss50.me/"
+	}
 	jcenter()
 }
 
@@ -43,6 +47,7 @@ dependencies {
 	// Mod integration
 	if (System.env.MOD_INTEGRATION) {
 		modImplementation("curse.maven:blockus:2986593")
+		modImplementation("com.terraformersmc:TerraformersMC_Cinderscapes_1.16:${project.cinderscapes_version}");
 	}
 }
 

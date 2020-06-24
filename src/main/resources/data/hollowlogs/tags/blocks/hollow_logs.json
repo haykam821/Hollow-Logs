@@ -21,6 +21,15 @@
 			},
 			{
 				"when": {
+					"libcd:mod_loaded": "cinderscapes"
+				},
+				"values": [
+					"hollowlogs:scorched_hollow_stem",
+					"hollowlogs:umbral_hollow_stem"
+				]
+			},
+			{
+				"when": {
 					"libcd:mod_loaded": "terrestria"
 				},
 				"values": [

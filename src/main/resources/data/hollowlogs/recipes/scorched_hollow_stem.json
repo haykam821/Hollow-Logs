@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "cinderscapes:scorched_stem"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:scorched_hollow_stem",
+		"count": 6
+	}
+}

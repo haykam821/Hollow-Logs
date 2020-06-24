@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"axis=x": {
+			"model": "hollowlogs:block/scorched_hollow_stem",
+			"x": 90,
+			"y": 90
+		},
+		"axis=y": {
+			"model": "hollowlogs:block/scorched_hollow_stem"
+		},
+		"axis=z": {
+			"model": "hollowlogs:block/scorched_hollow_stem",
+			"x": 90
+		}
+	}
+}

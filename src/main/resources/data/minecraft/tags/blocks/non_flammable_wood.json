@@ -2,5 +2,18 @@
 	"values": [
 		"hollowlogs:crimson_hollow_stem",
 		"hollowlogs:warped_hollow_stem"
-	]
+	],
+	"libcd": {
+		"entries": [
+			{
+				"when": {
+					"libcd:mod_loaded": "cinderscapes"
+				},
+				"values": [
+					"hollowlogs:scorched_hollow_stem",
+					"hollowlogs:umbral_hollow_stem"
+				]
+			}
+		]
+	}
 }

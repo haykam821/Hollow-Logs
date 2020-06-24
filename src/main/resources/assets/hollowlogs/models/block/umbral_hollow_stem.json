@@ -1,0 +1,8 @@
+{
+	"parent": "hollowlogs:block/hollow_column",
+	"textures": {
+		"end": "cinderscapes:block/stripped_umbral_stem_top",
+		"side": "cinderscapes:block/umbral_stem",
+		"inner": "cinderscapes:block/stripped_umbral_stem"
+	}
+}
