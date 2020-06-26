@@ -37,3 +37,5 @@ Hollow logs are available for every vanilla wooden log or stem, and for logs and
   * Deadwood logs
 * [Traverse](https://www.curseforge.com/minecraft/mc-mods/traverse)
   * Fir logs
+* [Woods and Mires](https://www.curseforge.com/minecraft/mc-mods/woods-and-mires)
+  * Pine logs

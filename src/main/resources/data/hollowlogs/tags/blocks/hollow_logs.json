@@ -57,6 +57,14 @@
 				"values": [
 					"hollowlogs:fir_hollow_log"
 				]
+			},
+			{
+				"when": {
+					"libcd:mod_loaded": "woods_and_mires"
+				},
+				"values": [
+					"hollowlogs:pine_hollow_log"
+				]
 			}
 		]
 	}
