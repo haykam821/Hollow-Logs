@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"w w",
+		"w w",
+		"w w"
+	],
+	"key": {
+		"w": {
+			"item": "byg:blue_enchanted_log"
+		}
+	},
+	"result": {
+		"item": "hollowlogs:blue_enchanted_hollow_log",
+		"count": 6
+	}
+}

@@ -40,7 +40,10 @@ public enum LogTypes {
 	SCORCHED("cinderscapes", "scorched", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).materialColor(MaterialColor.LIGHT_GRAY), true),
 	UMBRAL("cinderscapes", "umbral", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).materialColor(MaterialColor.BLUE), true),
 
-	PINE("woods_and_mires", "pine", Blocks.OAK_LOG);
+	PINE("woods_and_mires", "pine", Blocks.OAK_LOG),
+
+	BLUE_ENCHANTED("byg", "blue_enchanted", Blocks.OAK_LOG),
+	GREEN_ENCHANTED("byg", "green_enchanted", Blocks.OAK_LOG);
 
 	private LogTypes(String mod, String type, Block.Settings blockSettings, boolean isStem) {
 		if (!FabricLoader.getInstance().isModLoaded(mod)) return;

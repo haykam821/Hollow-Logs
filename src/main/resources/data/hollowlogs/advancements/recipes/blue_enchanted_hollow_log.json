@@ -1,0 +1,35 @@
+{
+	"parent": "minecraft:recipes/root",
+	"rewards": {
+		"recipes": [
+			"hollowlogs:blue_enchanted_hollow_log"
+		]
+	},
+	"criteria": {
+		"has_at_least_6_blue_enchanted_logs": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "byg:blue_enchanted_log",
+						"count": {
+							"min": 6
+						}
+					}
+				]
+			}
+		},
+		"has_the_recipe": {
+			"trigger": "minecraft:recipe_unlocked",
+			"conditions": {
+				"recipe": "hollowlogs:blue_enchanted_hollow_log"
+			}
+		}
+	},
+	"requirements": [
+		[
+			"has_at_least_6_blue_enchanted_logs",
+			"has_the_recipe"
+		]
+	]
+}
