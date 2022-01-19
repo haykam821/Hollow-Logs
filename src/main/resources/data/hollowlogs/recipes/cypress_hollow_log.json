@@ -13,5 +13,13 @@
 	"result": {
 		"item": "hollowlogs:cypress_hollow_log",
 		"count": 6
-	}
+	},
+	"fabric:load_conditions": [
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": [
+				"terrestria"
+			]
+		}
+	]
 }

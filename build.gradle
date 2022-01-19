@@ -18,10 +18,6 @@ repositories {
 		name = "Fabric"
 		url = "https://maven.fabricmc.net/"
 	}
-	maven {
-		name = "Cotton"
-		url = "https://server.bbkr.space/artifactory/libs-release/"
-	}
 	jcenter()
 }
 
@@ -33,10 +29,6 @@ dependencies {
 
 	// Fabric API
 	modImplementation("net.fabricmc.fabric-api:fabric-api:${project.fabric_version}")
-
-	// LibCD
-	modImplementation("io.github.cottonmc:LibCD:${project.libcd_version}")
-	include("io.github.cottonmc:LibCD:${project.libcd_version}")
 }
 
 processResources {

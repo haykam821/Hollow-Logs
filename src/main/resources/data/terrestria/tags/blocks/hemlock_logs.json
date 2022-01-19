@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:hemlock_hollow_log"
+		{
+			"id": "hollowlogs:hemlock_hollow_log",
+			"required": false
+		}
 	]
 }

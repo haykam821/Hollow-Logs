@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:redwood_hollow_log"
+		{
+			"id": "hollowlogs:redwood_hollow_log",
+			"required": false
+		}
 	]
 }

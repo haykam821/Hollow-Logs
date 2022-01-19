@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:umbral_hollow_stem"
+		{
+			"id": "hollowlogs:umbral_hollow_stem",
+			"required": false
+		}
 	]
 }

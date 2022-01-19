@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:cypress_hollow_log"
+		{
+			"id": "hollowlogs:cypress_hollow_log",
+			"required": false
+		}
 	]
 }

@@ -7,65 +7,58 @@
 		"hollowlogs:jungle_hollow_log",
 		"hollowlogs:oak_hollow_log",
 		"hollowlogs:spruce_hollow_log",
-		"hollowlogs:warped_hollow_stem"
-	],
-	"libcd": {
-		"entries": [
-			{
-				"when": {
-					"libcd:mod_loaded": "blockus"
-				},
-				"values": [
-					"hollowlogs:white_oak_hollow_log"
-				]
-			},
-			{
-				"when": {
-					"libcd:mod_loaded": "cinderscapes"
-				},
-				"values": [
-					"hollowlogs:scorched_hollow_stem",
-					"hollowlogs:umbral_hollow_stem"
-				]
-			},
-			{
-				"when": {
-					"libcd:mod_loaded": "terrestria"
-				},
-				"values": [
-					"hollowlogs:cypress_hollow_log",
-					"hollowlogs:hemlock_hollow_log",
-					"hollowlogs:japanese_maple_hollow_log",
-					"hollowlogs:rainbow_eucalyptus_hollow_log",
-					"hollowlogs:redwood_hollow_log",
-					"hollowlogs:rubber_hollow_log",
-					"hollowlogs:willow_hollow_log"
-				]
-			},
-			{
-				"when": {
-					"libcd:mod_loaded": "thehallow"
-				},
-				"values": [
-					"hollowlogs:deadwood_hollow_log"
-				]
-			},
-			{
-				"when": {
-					"libcd:mod_loaded": "traverse"
-				},
-				"values": [
-					"hollowlogs:fir_hollow_log"
-				]
-			},
-			{
-				"when": {
-					"libcd:mod_loaded": "woods_and_mires"
-				},
-				"values": [
-					"hollowlogs:pine_hollow_log"
-				]
-			}
-		]
-	}
+		"hollowlogs:warped_hollow_stem",
+		{
+			"id": "hollowlogs:white_oak_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:scorched_hollow_stem",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:umbral_hollow_stem",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:cypress_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:hemlock_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:japanese_maple_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:rainbow_eucalyptus_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:redwood_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:rubber_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:willow_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:deadwood_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:fir_hollow_log",
+			"required": false
+		},
+		{
+			"id": "hollowlogs:pine_hollow_log",
+			"required": false
+		}
+	]
 }

@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:scorched_hollow_stem"
+		{
+			"id": "hollowlogs:scorched_hollow_stem",
+			"required": false
+		}
 	]
 }

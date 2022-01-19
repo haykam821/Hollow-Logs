@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:white_oak_hollow_log"
+		{
+			"id": "hollowlogs:white_oak_hollow_log",
+			"required": false
+		}
 	]
 }

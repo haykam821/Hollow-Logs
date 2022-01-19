@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:japanese_maple_hollow_log"
+		{
+			"id": "hollowlogs:japanese_maple_hollow_log",
+			"required": false
+		}
 	]
 }

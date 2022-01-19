@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:rubber_hollow_log"
+		{
+			"id": "hollowlogs:rubber_hollow_log",
+			"required": false
+		}
 	]
 }

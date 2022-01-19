@@ -1,5 +1,8 @@
 {
 	"values": [
-		"hollowlogs:willow_hollow_log"
+		{
+			"id": "hollowlogs:willow_hollow_log",
+			"required": false
+		}
 	]
 }
