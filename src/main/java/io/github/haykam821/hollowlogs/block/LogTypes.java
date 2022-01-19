@@ -5,7 +5,7 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
-import net.minecraft.block.MaterialColor;
+import net.minecraft.block.MapColor;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -37,8 +37,8 @@ public enum LogTypes {
 
 	WHITE_OAK("blockus", "white_oak", Blocks.BIRCH_LOG),
 
-	SCORCHED("cinderscapes", "scorched", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).materialColor(MaterialColor.LIGHT_GRAY), true),
-	UMBRAL("cinderscapes", "umbral", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).materialColor(MaterialColor.BLUE), true),
+	SCORCHED("cinderscapes", "scorched", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).mapColor(MapColor.LIGHT_GRAY), true),
+	UMBRAL("cinderscapes", "umbral", FabricBlockSettings.copyOf(Blocks.WARPED_STEM).mapColor(MapColor.BLUE), true),
 
 	PINE("woods_and_mires", "pine", Blocks.OAK_LOG);
 

@@ -11,7 +11,9 @@
 			"conditions": {
 				"items": [
 					{
-						"item": "woods_and_mires:pine_log",
+						"items": [
+							"woods_and_mires:pine_log"
+						],
 						"count": {
 							"min": 6
 						}
